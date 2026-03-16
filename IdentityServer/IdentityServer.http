@@ -1,0 +1,11 @@
+@IdentityServer_HostAddress = http://localhost:5107
+
+GET {{IdentityServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+//http://localhost:5107/weatherforecast/
+
+//http://localhost:5107/openapi/v1.json
+//http://localhost:5107/swagger/v1/swagger.json

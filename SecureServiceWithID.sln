@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{C9F1FFA1-52BD-4148-B79E-DB06B49549BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moview.Api", "Moview.Api\Moview.Api.csproj", "{195289BD-1031-40D9-AF4F-D04CE13D5957}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{DBB25B6F-B86F-4703-A18F-D89583D9900F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuth", "BasicAuth\BasicAuth.csproj", "{5AD1C14C-A7A1-4225-AA0E-680F14D044CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9F1FFA1-52BD-4148-B79E-DB06B49549BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F1FFA1-52BD-4148-B79E-DB06B49549BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F1FFA1-52BD-4148-B79E-DB06B49549BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F1FFA1-52BD-4148-B79E-DB06B49549BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195289BD-1031-40D9-AF4F-D04CE13D5957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195289BD-1031-40D9-AF4F-D04CE13D5957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195289BD-1031-40D9-AF4F-D04CE13D5957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195289BD-1031-40D9-AF4F-D04CE13D5957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD1C14C-A7A1-4225-AA0E-680F14D044CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD1C14C-A7A1-4225-AA0E-680F14D044CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD1C14C-A7A1-4225-AA0E-680F14D044CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD1C14C-A7A1-4225-AA0E-680F14D044CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9F1FFA1-52BD-4148-B79E-DB06B49549BE} = {DBB25B6F-B86F-4703-A18F-D89583D9900F}
+		{195289BD-1031-40D9-AF4F-D04CE13D5957} = {DBB25B6F-B86F-4703-A18F-D89583D9900F}
+		{5AD1C14C-A7A1-4225-AA0E-680F14D044CC} = {DBB25B6F-B86F-4703-A18F-D89583D9900F}
+	EndGlobalSection
+EndGlobal
