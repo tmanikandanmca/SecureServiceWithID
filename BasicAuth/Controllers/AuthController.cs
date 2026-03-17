@@ -16,7 +16,7 @@ public class AuthController(
 {
     protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
     {
-        if (!Request.Headers.TryGetValue("Authorization", out Microsoft.Extensions.Primitives.StringValues value))
+        if (!Request.Headers.TryGetValue("Authorization", out var value))
             return await Task.FromResult(AuthenticateResult.Fail("Missing Authorization Header"));
         
         var authHeader =AuthenticationHeaderValue.Parse(value!);
